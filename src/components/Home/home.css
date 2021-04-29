@@ -1,0 +1,830 @@
+body {
+font-family: 'Poppins', sans-serif;
+}
+li {
+list-style: none;
+}
+a 
+{
+text-decoration: none;
+}
+div#navbarSupportedContent li
+{
+display: inline-block;
+margin: 0 20px;
+}
+div#navbarSupportedContent a 
+{
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+text-transform: uppercase;
+font-weight: 600;
+color: #fff;
+}
+a {
+    text-decoration: none !important;
+}
+a:hover 
+{
+text-decoration: none;
+}
+.bennar-sec img
+{
+width: 100%;
+height: auto;
+}
+.header-sec
+{
+position: relative;
+}
+.logo-menu {
+position: fixed;
+top: 20px;
+float: left;
+width: 100%;
+background: #fff;
+left: 0;
+top: 0;
+padding: 0px 80px;
+z-index: 9999;
+box-shadow: 1px 0px 2px #dddddd7a;
+}
+.Menu-Sec ul {
+padding-top: 20px;
+}
+.text-bennar 
+{
+position: absolute;
+top: 40%;
+z-index: 999;
+width: 100%;
+padding: 0 170px;
+}
+.text-bennar h1 
+{
+color: #fff;
+font-size: 64px;
+font-family: 'Poppins', sans-serif;
+font-weight: 900;
+}
+.text-bennar p {
+width: 600px;
+color: #fff;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+padding: 14px 0px;
+}
+.learnmore {
+border: 1px solid;
+color: #fff;
+font-size: 18px;
+font-family: 'Poppins', sans-serif;
+margin-top: 18px;
+padding: 14px 33px;
+}
+.Menu-Sec li 
+{
+    display: inline-block;
+    margin: 0 10px;
+}
+.Menu-Sec a
+{
+    color: #000;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.WhyChoosePost {
+    display: flex;
+}
+.WhyChoseUs {
+    width: 33.33%;
+    margin: 14px;
+    text-align: center;
+}
+.WhyChoose {
+    background: radial-gradient(circle at left top , rgb(12, 180, 206) 9% , rgb(0, 108, 255) 48% , rgb(100, 66, 255) 91%) !important;
+    color: #fff;
+    padding: 40px 0;
+    border-radius: 5px;
+}
+h3.h3 {
+    font-size: 16px;
+    margin: 8px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 7px 0 0;
+}
+.h5title {
+    color: #fff !important;
+    padding-bottom: 30px;
+}
+img.imgeight {
+    width: 20px;
+}
+p.text-lead {
+    font-size: 12px;
+    line-height: 20px;
+}
+.WhyChoseUs i {
+    font-size: 60px;
+}
+.ClientsSec {
+    display: flex;
+        padding: 30px 0;
+        background-color: #fff;
+}
+h2.ClientsProjectsTitle {
+    color: #0f4c81;
+    font-size: 28px;
+    font-weight: bold;
+}
+p.counter-text {
+    color: #000000a8;
+    font-size: 16px;
+    font-weight: 400;
+}
+.ClientsProjects {
+    width: 33.3%;
+    text-align: center;
+    border-right: 1px solid #00000014;
+}
+
+.CompanyTeam img {
+    width: 100%;
+    box-shadow: 1px 1px 3px #dddddd7d;
+}
+.title-text h3 {
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.title-text {
+    background: #3CB371;
+    padding: 13px 10px 2px;
+}
+    .title-text p {
+        font-size: 14px;
+        padding: 4px -0 0;
+        text-transform: capitalize;
+    }
+    .CompanyTeam {
+        width: 23% !important;
+        margin: 10px;
+    }
+    .Team {
+        
+        color: #fff;
+        padding: 40px 0;
+        border-radius: 5px;
+        background: #6B8E23;
+    }
+.DesignBuildDeliver 
+{
+margin: -80px 0 0;
+display: flex;
+position: relative;
+}
+.Design 
+{
+    background: #fff;
+    padding: 25px;
+    box-shadow: 1px 1px 8px #8c888891;
+    margin: 15px;
+    text-align: center;
+}
+.DesignTitle
+{
+    color: #0f4c81;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.Itbeen {
+    background: #f8f8f8;
+    padding: 20px 0;
+}
+.Startups_Sec {
+    display: flex;
+}
+.Design:hover h2 {
+    color: #fff;
+    transition: 2s;
+}
+.Startups {
+    text-align: center;
+    width: 33.3%;
+    margin-top: 20px;
+}
+p.DesignText 
+{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.CompanyServices
+{
+background: #f8f8f8;
+}
+.about_sec {
+background: #f8f8f8;
+padding: 50px 0 30px;
+}
+.about_sec h5 {
+    color: #0f4c81;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+p.Planningtext {
+    
+    font-size: 12px;
+    line-height: 20px;
+}
+.about_sec p 
+{
+    font-size: 12px;
+    line-height: 20px;
+}
+.leftAbout_Text {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 600;
+}
+h4.Alway_Time_title {
+     font-size: 15px;
+    color: #0f4c81;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.AlwaySec {
+    text-align: center;
+    border: 1px solid #ddd;
+    height: 91px;
+    padding: 3px 0;
+    margin-top: 8px;
+}
+h4.Alway_Time_title i 
+{
+color:#00c9ff;
+margin: 0 6px;
+}
+.WorkTime_Title {
+    font-size: 18px;
+    color: #0f4c81;
+    font-weight: 500;
+    margin: 0;
+}
+.Startups .Location_title {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #0f4c81;
+    font-weight: 500;
+    text-align: center;
+}
+
+.services a {
+    font-size: 16px;
+    color: #000;
+    margin: 8px 0;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 7px 0 0;
+}
+section.services li {
+    text-align: center;
+}
+
+.content {
+    font-size: 14px;
+    line-height: 24px;
+}
+.WorkTime_Text {
+    color: #060606;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.working 
+{
+margin: 40px 0;
+}
+.Analysis
+{
+background: #0f4c81;
+color: #fff;
+padding: 32px;
+height: 240px;
+}
+.Planning 
+{
+background: #f8f8f8;
+padding: 32px;
+height: 240px;
+}
+.Growth
+{
+background: #000;
+color: #fff;
+padding: 32px;
+height: 240px;
+}
+.working li {
+    width: 25%;
+    padding: 35px 20px 20px;
+}
+.working li:nth-child(2) {
+background: #0f4c81;
+color: #fff;
+}
+
+.working li:nth-child(2) h3 {
+color: #fff;
+}
+.working li:nth-child(3) {
+background: #f8f8f8;
+
+}
+
+.working li:nth-child(4) {
+background: #060606;
+color: #fff;
+}
+
+.working li:nth-child(4) h3 {
+color: #fff;
+}
+
+.Footer-sec 
+{
+background: #000;
+}
+.CopyRight
+{
+display: flex;
+padding: 30px 0 14px;
+}
+.CopyRight_Text 
+{
+width: 80%;
+text-align: center;
+color: #fff;
+}
+.CopyRight_Icon li 
+{
+display: inline-block;
+margin: 0 13px;
+}
+.CopyRight_Icon a
+{
+color: #fff;
+}
+.ServicesStudio45 
+{
+display: flex;
+width: 100%;
+}
+
+
+.Design:hover 
+{
+background: #00c9ff;
+cursor: pointer;
+color: #fff !important;
+transition: 2s;
+
+}
+.Logo-Sec img {
+max-width: 160px;
+}
+
+.Hometopbtn
+{
+border: 1px solid;
+color: #fff;
+padding: 14px 41px;
+display: inline-block;
+margin-top: 20px;
+font-size: 20px;
+}
+.Hometopbtn:hover 
+{
+background: #fff;
+transition: .5s;
+color: #0199d4;
+
+}
+
+.Viewbtn a:hover {
+background: #0199d4;
+transition: 5s;
+color: #fff;
+}
+
+
+.Menu-Sec 
+{
+    text-align: right;
+    padding-top: 20px;
+}
+
+.Design img:hover {
+transition: 1s;
+}
+.Menu-Sec a:hover {
+color: #0199d4;
+transition: 3s;
+}
+.working 
+{
+display: flex;
+}
+h1.Services_title {
+font-size: 17px;
+font-weight: 800;
+color: #060606;
+position: relative;
+}
+
+section.Services img {
+max-width: 170px;
+margin: 20px auto;
+}
+h1.Services_title::before {
+content: "";
+border-bottom: 2px solid #000;
+width: 47px;
+padding: 3px 0;
+position: absolute;
+top: 17px;
+z-index: 9999999;
+}
+h5.CoreServices {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #0f4c81;
+    font-weight: 500;
+     text-align: center;
+}
+h2.CoreServices_text {
+    font-size: 14px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.testimonials_slider {
+    width: 600px;
+    margin: 10px auto;
+    background: radial-gradient(circle at left top , rgb(12, 180, 206) 9% , rgb(0, 108, 255) 48% , rgb(100, 66, 255) 91%) !important;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.slick-slide img {
+    display: block;
+    margin: 0 auto;
+    
+}
+.Testimonials-post img {
+    border-radius: 50%;
+}
+.Testimonials-post p {
+    font-size: 12px;
+    line-height: 20px;
+    font-style: italic;
+}
+.Testimonials-post {
+    width: 50%;
+    margin: 0 auto;
+}
+.testimonials {
+    margin: 20px 0 0;
+}
+.LatestBlog {
+display: flex;
+margin: 30px 0;
+}
+.BlogPost img {
+width: 100%;
+height: auto;
+transition: width 2s, height 4s;
+}
+.BlogPost img:hover {
+width: 320px;
+height: auto;
+}
+.BlogPost h2 {
+color: #060606;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+}
+.BlogPost {
+width: 33.33%;
+margin: 15px;
+}
+.Blog {
+background: #f8f8f8;
+padding: 50px 0 50px;
+}
+.logo{
+padding: 3% 0;
+}
+.Viewbtn {
+text-align: right;
+}
+.Viewbtn a {
+color: #060606;
+border: 1px solid;
+padding: 10px 23px;
+display: inline-block;
+font-weight: bold;
+margin-bottom: 30px;
+}
+.Location_Email_Sec {
+display: flex;
+}
+.Location {
+width: 33.33%;
+background: #fff;
+box-shadow: 0px 2px 4px #ddd;
+margin: 16px;
+padding: 20px;
+}
+h2.Location_title {
+    font-size: 14px;
+    font-weight: 500;
+}
+p.Location_text {
+    /* color: #6c6c6c; */
+    font-size: 12px;
+    margin: 0;
+    line-height: 20px;
+}
+.Contactus {
+background: #f8f8f859;
+padding: 2% 0 0;
+}
+.Contact-form {
+    text-align: center;
+}
+ul.formsec {
+    padding: 0;
+    margin: 50px 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.BtnContact {
+    color: #fff;
+    background: #093ea9;
+}
+.SinglPageText h2 {
+      color: #0f4c81;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.SinglPageText p {
+    font-size: 12px;
+    line-height: 20px;
+}
+ul.formsec a {
+    height: 50px;
+    line-height: 50px;
+    padding: 13px 30px;
+    border-radius: 0 15px;
+    margin-right: 15px;
+    outline: none;
+}
+a.BtnTalk {
+    color: #fff;
+    background: #efaa5f;
+}
+.CopyRight_Text p {
+    font-size: 12px;
+}
+.Contact-form h3 {
+    font-size: 18px;
+    color: #0f4c81;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Contact-form p {
+font-size: 14px;
+}
+section.services li:nth-child(1) {
+background: #c3d8f6;
+padding: 15px;
+margin: 10px;
+}
+section.services li:nth-child(2) {
+background: #fff8d1;
+padding: 15px;
+margin: 10px;
+}
+section.services li:nth-child(3) {
+background: #ffddee;
+padding: 15px;
+margin: 10px;
+}
+section.services li:nth-child(4) {
+background: #ddffe1;
+padding: 15px;
+margin: 10px;
+}
+.title h2 {
+font-size: 17px;
+font-weight: 900;
+}
+.logo img {
+width: 100%;
+}
+.Location img {
+width: 15%;
+}
+img.logo-icon {
+width: 25%;
+}
+.Location:hover {
+background: #00c9ff42;
+cursor: pointer;
+color: #fff !important;
+transition: 2s;
+}
+
+.title h2 a {
+color: #000;
+}
+.image img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.image {
+    text-align: center;
+}
+section.services {
+width: 100%;
+display: flex;
+margin: 25px 0;
+}
+.services_singlpage {
+    margin: 50px 0;
+    display: flex;
+}
+.SinglPageText {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+h4.ExperienceTitle {
+    color: #0f4c81;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+p.ExperienceText {
+    text-align: center;
+    font-size: 14px;
+}
+@media(max-width:767px){
+
+.Location_Email_Sec {
+display: block;
+}
+.DesignBuildDeliver {
+margin: 0;
+display: block;
+
+}
+.text-bennar {
+width: 100%;
+padding: 0 20px;
+}
+.text-bennar h1 {
+font-size: 24px;
+}
+.text-bennar p {
+width: 100%;
+}
+.Contact-form {
+width: 100%;
+}
+img.ceo-img {
+width: 90%;
+}
+.working {
+display: block;
+}
+.working li {
+width: 100%;
+
+}
+section.Services {
+display: block !important;
+}
+.LatestBlog {
+display: block;
+}
+.BlogPost {
+width: 100%;
+margin: 20px 0;
+}
+.Location{
+width: 100%;
+margin: 20px 0;
+}
+.logo-menu {
+
+padding: 0px 8px;
+
+}
+.Menu-Sec {
+text-align: center;
+padding-top: 0;
+}
+.Menu-Sec li {
+display: inline-block;
+margin: 0 7px;
+}
+.Menu-Sec a {
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.Logo-Sec {
+text-align: center;
+}
+section.Services li {
+width: 100%;
+}
+}
+
+@media(max-width:500px){
+
+.CopyRight {
+display: block;
+}
+.CopyRight_Text {
+width: 100%;
+}
+.CopyRight_Icon {
+text-align: center;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.logo-menu {
+
+padding: 0px 20px;
+
+}
+.text-bennar h1 {
+
+font-size: 34px;
+
+}
+.text-bennar p {
+width: 100%;
+}
+.text-bennar {
+
+top: 20%;
+
+padding: 0 50px;
+}
+section.Services li {
+margin: 7px;
+height: 470px;
+width: 23%;
+float: left;
+}
+p.Location_text {
+font-size: 10px;
+
+line-height: 18px;
+}
+section.Services img {
+width: 100%;
+margin: 20px auto;
+}
+h1.Services_title::before {
+display: none;
+}
+img.ceo-img {
+width: 70%;
+}
+h4.Alway_Time_title {
+font-size: 10px;
+}
+.Menu-Sec li {
+margin: 0 10px;
+}
+}

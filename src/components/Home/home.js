@@ -1,13 +1,26 @@
 import React from 'react';
-import About from '../About/about';
+import Header from '../partials/Header'
+import Middel from '../Middel/Middel'
+import Footer from '../partials/Footer'
+import './home.css';
+
 
 const Home = ()=>{
         return (
             <div className="home-page">
                 <div className="home-div">
-                    <About />
-                    <h1>Hello Home page</h1>
+                    <div className="Top_header_sec">
+                        <Header />
+                    </div>
+                    <div className="middel_sec"> 
+                         <Middel />
+                    </div>
+                   
+                    <div className="Footer-sec">
+                      <Footer />
+                    </div>
                 </div>
             </div>
         )}
 export default Home;
+
