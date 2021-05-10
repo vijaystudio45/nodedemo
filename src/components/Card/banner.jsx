@@ -1,9 +1,19 @@
 const Banner = [
     {
-        imgsrc : "images/bennar.jpg",
-        title : "Design1",
-        sname : "XYZ",
-        link : "http://localhost:3000/"
+        imgsrc : "images/HomeDesignpage.jpg",
+       
+    },
+	 {
+        imgsrc : "images/SEO.jpg",
+       
+    },
+    {
+        imgsrc : "images/WebDevlopment.jpg",
+       
+    },
+    {
+        imgsrc : "images/bannerimghome.jpg",
+       
     },
    
 ];

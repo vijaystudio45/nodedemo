@@ -20,7 +20,7 @@ const Team = [
 
     {
         imgsrc : "images/team4.png",
-        title : "Design1",
+        title : "MR. Vipin Yadav",
         text : "Chief Technology Officer",
         
     },

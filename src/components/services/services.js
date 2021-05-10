@@ -14,6 +14,7 @@ const Services = ()=>{
                                 
                                 <div className="image"><img src={val.imageSrc} /></div>
                                 <div className="title"><a href={process.env.REACT_APP_ROOT_URL+"/services/"+slugify(val.title)}>{val.title}</a></div>
+								<hr/>
                                 <div className="content">{val.content.slice(0, 150)}</div>
                                                            
                                
