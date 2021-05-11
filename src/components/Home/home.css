@@ -886,17 +886,7 @@ img.BtmLogo {
     line-height: 24px;
     font-size: 14px;
 }
-.CopyRight_Icon a {
-    color: #fff;
-    background: #000;
-    width: 35px;
-    padding: 6px 0px 6px 0px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 35px;
-}
+
 h3.footerTit {
     font-size: 16px;
     color: #0f4c81;
@@ -910,6 +900,12 @@ h3.footerTit {
     color: #000;
     font-size: 14px;
     line-height: 24px;
+}
+.CopyRight_Icon img {
+    width: 40px;
+    box-shadow: 1px 1px 4px #00000069;
+    border-radius: 60%;
+  
 }
 
 
@@ -1165,7 +1161,7 @@ margin: 0 10px;
   .Submenu:hover .dropdown-content {display: block;}
 .Developmentmenu {
     width: 1170px;
-    left: -1123%;
+    left: -1405%;
     margin: 0 auto;
     padding: 20px;
     top: 45px;
@@ -1254,8 +1250,9 @@ margin: 0 10px;
     width: 50%;
 }
 .contactsec {
-    background: url(http://ec2-13-233-214-80.ap-south-1.compute.amazonaws.com:3000/images/contactbannerimg.png);
+    background: url(http://ec2-3-6-160-181.ap-south-1.compute.amazonaws.com:3000/images/banner121.jpg);
     background-size: cover;
+    height: 490px;
 }
 
 .aboutbannertext {
@@ -1384,19 +1381,19 @@ img.about-img {
 .contactform input {
     width: 100%;
     background: none;
-    border: 1px solid #ffffff8c;
+    border: 1px solid #100d0d8c;
     height: 35px;
     color: #fff;
 }
 .contactform textarea {
     width: 100%;
     background: none;
-    border: 1px solid #ffffff85;
+    border: 1px solid #100d0d8c;
     height: 150px;
     color: #ffffff;
 }
 .contactform label {
-    color: #ffffffad;
+   
     font-weight: 200;
     font-size: 14px;
     text-transform: uppercase;
@@ -1453,7 +1450,7 @@ a.Submitbtn {
 .Secrvice_sec_left {
     position: relative;
    
-    background: url(http://ec2-13-233-214-80.ap-south-1.compute.amazonaws.com:3000/images/wave_top_trasnsprent.png);
+    background: url(http://ec2-3-6-160-181.ap-south-1.compute.amazonaws.com:3000/images/wave_top_trasnsprent.png);
     background-size: 100%;
     align-items: center;
     background-position: 81% 126%;
@@ -1501,11 +1498,6 @@ a.Submitbtn {
     float: left;
     width: 100%;
 }
-
-
-
-
-
 
 .Secrvice_sec_right ul {
     padding: 0;
@@ -1557,7 +1549,7 @@ img.Servicespageimg {
 }
 .servicesimg:after {
     background-color: #f2f2f2;
-    background: url(http://ec2-13-233-214-80.ap-south-1.compute.amazonaws.com:3000/images/64x64-pattern.png);
+    background-image: url(http://ec2-3-6-160-181.ap-south-1.compute.amazonaws.com:3000/images/64x64-pattern.png?id=2387) !important;
     background-position: 0 0 !important;
     background-repeat: repeat !important;
     content: "";
@@ -1742,4 +1734,158 @@ li.Submenu a {
 .Submenu i {
     margin: 0;
     position: absolute;
+}
+.servicescontactpage1 .Contact-secfrom input {
+    border: 1px solid #ddd;
+    width: 95%;
+}
+.servicescontactpage1 select#cars {
+    border: 1px solid #ddd;
+
+}
+.servicescontactpage1 textarea {
+    border: 1px solid #ddd;
+    width: 97%;
+}
+.servicescontactpage1 .Brilliance {
+
+    padding: 40px 0;
+}
+
+.contactsec h1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+
+
+.map_right p {
+    line-height: 24px;
+    font-size: 14px;
+}
+.map_left iframe {
+    width: 100%;
+    height: 400px;
+    box-shadow: none;
+    border: none;
+}
+
+#Mockup ul {
+    padding: 0;
+}
+div#Mockup li {
+    width: 47.3%;
+    float: left;
+    margin: 15px;
+    position: relative;
+}
+div#Mockup img {
+    width: 100%;
+  
+}
+ul {
+    padding: 0;
+}
+div#Mixtape li {
+    float: left;
+    width: 30.5%;
+    position: relative;
+    margin: 15px;
+}
+div#Mixtape img {
+    width: 100%;
+   
+}
+div#T-Shirts li {
+    width: 29.33%;
+    float: left;
+    margin: 20px;
+    position: relative;
+    border: 1px solid #ddd;
+}
+div#T-Shirts img {
+    width: 100%;
+}
+div#Flyers li {
+    width: 47.3%;
+    float: left;
+    margin: 15px;
+    position: relative;
+}
+div#Flyers img {
+    width: 100%;
+}
+
+div#Logos li {
+    width: 30.6%;
+    float: left;
+    text-align: center;
+    background: #ffff;
+    box-shadow: 1px 3px 5px #dddd;
+      margin: 15px;
+    position: relative;
+}
+.Portfoliopost {
+    background: #f8f8f8;
+    padding: 20px 0 40px;
+}
+.portfolioflyer {
+    text-align: center;
+    padding: 35px 0 30px;
+    margin-top: 72px;
+    border-top: 1px solid #dddddd6e;
+}
+.portfolioflyer h1 {
+    color: #0f4c81;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin: 0;
+}
+.portfolioflyer p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.tabbar .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    cursor: default;
+    background-color: #f8f8f8 !important;
+    border: none;
+    border-bottom-color: none;
+    border-left: 0;
+    color: #f1a600;
+    border-bottom: 2px solid;
+}
+.tabbar .nav-tabs {
+    width: 500px;
+    margin: 0 auto;
+}
+.tabbar a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 8px;
+    text-transform: uppercase;
+}
+.hovereffect1 {
+    position: absolute;
+    background: #00000066;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+.hovereffect1:hover {
+    opacity: 0;
+    cursor: pointer;
+    transition: 2s;
+}
+div#Logos img {
+    width: 100%;
 }

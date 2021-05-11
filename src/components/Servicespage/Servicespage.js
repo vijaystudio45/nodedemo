@@ -24,7 +24,7 @@ const Servicespage = ()=>{
         <div className="Secrvice_sec_left">
             <div className="Servicespagebanner_sec">
                 <h1 class="main-heading2"><span>Services</span></h1>
-                <p class="about-sub-heading2"><h1>{process.env.REACT_APP_TEST}</h1>{ process.env.REACT_APP_TEST } Innovation in the domain of technology solutions is constantly stamping its authority. This revolution is empowering technology to change the face and future of your industry entirely. Therefore, it is important for you to look for robust, flexible and custom solutions that help you reduce time-to-market, stay current, stable, competitive and agile for growth in the future. SoftProdigy believes in housing the wealth of experience to make sure you reap the benefits of the following technologies:</p>
+                <p class="about-sub-heading2">Innovation in the domain of technology solutions is constantly stamping its authority. This revolution is empowering technology to change the face and future of your industry entirely. Therefore, it is important for you to look for robust, flexible and custom solutions that help you reduce time-to-market, stay current, stable, competitive and agile for growth in the future. SoftProdigy believes in housing the wealth of experience to make sure you reap the benefits of the following technologies:</p>
             </div>
         </div> 
         <div className="Secrvicepost">

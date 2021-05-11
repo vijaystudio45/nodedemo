@@ -14,13 +14,13 @@ const Footer = ()=>{
                 <div className="CopyRight_Icon">
                 <ul>
                 <li>
-                <a href="https://www.facebook.com/studio45creations/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/studio45creations/" target="_blank"><img className="iconimg" src="images/icon1.png" /></a>
                 </li>
                 <li>
-                <a href="https://twitter.com/Studio45C" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://twitter.com/Studio45C" target="_blank"><img className="iconimg" src="images/icon12.png"/></a>
                 </li>
                 <li>
-                <a href="https://www.linkedin.com/company/studio45creationss" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/company/studio45creationss" target="_blank"><img className="iconimg" src="images/icon13.png"/></a>
                 </li>
                 </ul>
             </div>
@@ -47,21 +47,21 @@ const Footer = ()=>{
                 <nav>
                 
                 <li>
-                   <NavLink exact activeClassName to="/">Home</NavLink>
+                   <a href="/">Home</a>
                 </li>
                 <li>
-                     <NavLink exact activeClassName to="/about">Company </NavLink>
+                     <a href="/about">About Us</a>
                     
                 </li>
                 <li>
-                      <NavLink exact activeClassName to="">Services </NavLink>
+                <a href="/Services">Services</a>
                 </li>
                 <li>
-                      <NavLink exact activeClassName to="">Portfolio</NavLink>   
+                      <a href="/Portfolio">Portfolio</a>   
                 </li>
                 
                 <li>
-                      <NavLink exact activeClassName to="/contact">Contact Us</NavLink> 
+                      <a href="/contact">Contact Us</a> 
                 </li>
                
        </nav>

@@ -9,6 +9,7 @@ import Services from '../src/components/services/services';
 import Contact from '../src/components/Contact/Contact';
 import Testimonials from '../src/components/Testimonials/Testimonials';
 import Servicespage from '../src/components/Servicespage/Servicespage';
+import Portfolio from '../src/components/Portfolio/Portfolio';
 
 // useEffect(() => {
 //   const scriptTag = document.createElement('script');
@@ -28,6 +29,7 @@ ReactDOM.render(
         <Route path='/contact' exact component={Contact} />
         <Route path='/testimonials' exact component={Testimonials} />
         <Route path='/Services' exact component={Servicespage} />
+        <Route path='/Portfolio' exact component={Portfolio} />
         
 
       </Switch>

@@ -1,6 +1,6 @@
 const Process = [
     {
-        imgsrc : "images/icon1.png",
+        imgsrc : "images/icon3.png",
         title : "01",
         text : "Plan",
        
